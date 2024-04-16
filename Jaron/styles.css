@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+ }
+ 
+ 
+ .top-bar, .bottom-bar {
+    background-color: #CCCCCC;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ 
+ 
+ .nav-links {
+    display: flex;
+ }
+ 
+ 
+ .nav-links a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+ }
+ 
+ 
+ .content {
+    /* Add styling for the content area */
+ }
+ 
+ 
+ .bottom-bar {
+    position: fixed;
+    bottom: 0;
+    background-color: #CCCCCC;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
